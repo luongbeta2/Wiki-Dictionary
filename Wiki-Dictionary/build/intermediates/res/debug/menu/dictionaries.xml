@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add_dictionaries"
+        android:showAsAction="always"
+        android:title="@string/action_add_dictionaries"/>
+    <item
+        android:id="@+id/action_find_dictionaries"
+        android:showAsAction="always"
+        android:title="@string/action_find_dictionaries"/>
+    <item
+        android:id="@+id/action_get_dictionary"
+        android:showAsAction="always"
+        android:title="@string/get_dic"/>
+    <item
+        android:id="@+id/action_setting"
+        android:showAsAction="always"
+        android:title="@string/subtitle_settings"/>
+
+</menu><!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/menu/dictionaries.xml -->

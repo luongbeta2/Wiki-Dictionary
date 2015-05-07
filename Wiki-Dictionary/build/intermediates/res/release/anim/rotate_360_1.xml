@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false" >
+
+    <rotate
+        android:duration="1000"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="360" >
+    </rotate>
+
+</set><!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/anim/rotate_360_1.xml -->

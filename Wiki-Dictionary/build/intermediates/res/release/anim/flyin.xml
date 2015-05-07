@@ -1,0 +1,8 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="true">
+    <scale android:interpolator="@android:anim/decelerate_interpolator"
+           android:fromXScale="0.0" android:toXScale="1.0" 
+           android:fromYScale="0.0" android:toYScale="1.0"
+           android:pivotX="50%" android:pivotY="50%"
+           android:fillAfter="false" android:duration="250"/>
+</set>
+<!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/anim/flyin.xml -->

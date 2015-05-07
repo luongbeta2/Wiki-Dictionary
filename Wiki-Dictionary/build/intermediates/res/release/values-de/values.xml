@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/values-de/strings.xml -->
+    <eat-comment/>
+    <plurals name="confirm_delete_bookmark_count">
+        <item quantity="zero">%,d Lesezeichen</item>
+        <item quantity="one">%,d Lesezeichen</item>
+        <item quantity="two">%,d Lesezeichen</item>
+        <item quantity="few">%,d Lesezeichen</item>
+        <item quantity="many">%,d Lesezeichen</item>
+        <item quantity="other">%,d Lesezeichen</item>
+    </plurals>
+    <plurals name="confirm_delete_history_count">
+        <item quantity="zero">%,d alte Datensätze</item>
+        <item quantity="one">%,d alter Datensatz</item>
+        <item quantity="two">%,d alte Datensätze</item>
+        <item quantity="few">%,d alte Datensätze</item>
+        <item quantity="many">%,d alte Datensätze</item>
+        <item quantity="other">%,d alte Datensätze</item>
+    </plurals>
+    <plurals name="dict_item_count">
+        <item quantity="zero">%,d Stichworte</item>
+        <item quantity="one">%,d Stichwort</item>
+        <item quantity="two">%,d Stichworte</item>
+        <item quantity="few">%,d Stichworte</item>
+        <item quantity="many">%,d Stichworte</item>
+        <item quantity="other">%,d Stichworte</item>
+    </plurals>
+    <string name="action_add_dictionaries">Hinzufügen</string>
+    <string name="action_ascending">Aufsteigend</string>
+    <string name="action_bookmark_article">Lesezeichen</string>
+    <string name="action_descending">Absteigend</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_find_dictionaries">Finde Wörterbücher</string>
+    <string name="action_find_in_page">Finde in Seite</string>
+    <string name="action_goto_parent_dir">Hoch</string>
+    <string name="action_lookup">Lookup</string>
+    <string name="action_reload_directory">Neu laden</string>
+    <string name="action_select_style">Stile...</string>
+    <string name="action_sort_by_time">Nach Zeit</string>
+    <string name="action_sort_by_title">Nach Titel</string>
+    <string name="action_zoom_in">Vergrössern</string>
+    <string name="action_zoom_out">Verkleinern</string>
+    <string name="action_zoom_reset">Zoom Reset</string>
+    <string name="app_name">Aard 2</string>
+    <string name="article_collection_invalid_link">Ungültiger Link</string>
+    <string name="article_collection_nothing_found">Nichts gefunden</string>
+    <string name="article_collection_nothing_to_lookup">Nichts zum nachschlagen</string>
+    <string name="article_collection_selected_not_available">Gewählter Artikel ist nicht verfügbar</string>
+    <string name="article_view_msg_not_found">Nichts gefunden</string>
+    <string name="blob_descriptor_confirm_delete">Lösche %1$s?</string>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-de/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Für eine App ist die Aktualisierung der Android Wear App erforderlich."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Diese App funktioniert erst nach der Aktualisierung der Android Wear App."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear aktualisieren"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play-Dienste aktivieren"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Diese App funktioniert nur, wenn Sie die Google Play-Dienste aktivieren."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play-Dienste aktivieren"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Angefordert von <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play-Dienste installieren"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Telefon nicht installiert sind."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Zur Nutzung dieser App sind Google Play-Dienste erforderlich, die auf Ihrem Tablet nicht installiert sind."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play-Dienste installieren"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Das angegebene Konto ist auf diesem Gerät nicht vorhanden. Bitte wählen Sie ein anderes Konto aus."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Ungültiges Konto"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"App erfordert die Aktivierung der Google Play-Dienste"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Um eine Verbindung zu den Google Play-Diensten herzustellen, ist eine Datenverbindung erforderlich."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Netzwerkfehler"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"App erfordert die Installation der Google Play-Dienste"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"App erfordert ein Update der Google Play-Dienste"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Fehler bei Zugriff auf Google Play-Dienste"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Fehler beim Anmelden im angegebenen Konto. Bitte wählen Sie ein anderes Konto aus."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Anmeldung fehlgeschlagen"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Unbekanntes Problem mit Google Play-Diensten"</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Google Play-Dienste, auf denen einige Ihrer Apps basieren, werden von diesem Gerät nicht unterstützt. Wenden Sie sich für weitere Informationen an den Hersteller."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play-Dienste"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aktualisieren"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Diese App wird nur ausgeführt, wenn Sie die Google Play-Dienste aktualisieren."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play-Dienste aktualisieren"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Auf Telefon öffnen"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Anmelden"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Diese App erfordert einen oder mehrere Google Play-Dienste, die derzeit nicht verfügbar sind. Bitte wenden Sie sich an den Entwickler, um Unterstützung zu erhalten."</string>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="confirm_clear_cached_content">Cache löschen?</string>
+    <string name="default_style_title">Default</string>
+    <string name="delete">Lösche</string>
+    <string name="dictionaries_confirm_forget">Vergesse %1$s?</string>
+    <string name="dictionaries_please_wait">Bitte warten</string>
+    <string name="dictionaries_scanning_device">Durchsuche Gerät nach Wörterbüchern...</string>
+    <string name="lookup_nothing_found">Nichts gefunden</string>
+    <string name="main_empty_bookmarks">Kein Lesezeichen</string>
+    <string name="main_empty_dictionaries">Keine Wörterbücher</string>
+    <string name="main_empty_history">Kein Verlauf</string>
+    <string name="msg_dictionary_added">Wörterbuch hinzugefügt von %1$s</string>
+    <string name="msg_dictionary_already_open">Schon geöffnet</string>
+    <string name="msg_failed_to_read_file">Datei nicht gelesen</string>
+    <string name="msg_failed_to_store_user_style">Kann Stil nicht speichern</string>
+    <string name="msg_file_not_css">Scheint kein CSS file zu sein</string>
+    <string name="msg_file_too_big">Datei zu gross</string>
+    <string name="msg_no_activity_to_get_content">Kann Datei nicht öffnen</string>
+    <string name="select_style">Wähle Stil</string>
+    <string name="setting_about">Über %1$s</string>
+    <string name="setting_clear_cache">Cache löschen</string>
+    <string name="setting_clear_cache_subtitle">Inhalt des Cache mit externen Bildern löschen</string>
+    <string name="setting_fav_random_search">Für zufällige Suche nur favorisierte Wörterbücher verwenden</string>
+    <string name="setting_remote_content">Lade externen Inhalt</string>
+    <string name="setting_remote_content_always">Immer</string>
+    <string name="setting_remote_content_never">Nie</string>
+    <string name="setting_remote_content_wifi">Nur mit Wi-Fi</string>
+    <string name="setting_ui_theme">Bedieneroberfläche</string>
+    <string name="setting_ui_theme_dark">Dunkel</string>
+    <string name="setting_ui_theme_light">Hell</string>
+    <string name="setting_user_style_confirm_forget">Vergesse %1$s?</string>
+    <string name="setting_user_styles">Anwender Stile</string>
+    <string name="setting_user_styles_empty">Keine Stile</string>
+    <string name="subtitle_bookmark">Lesezeichen</string>
+    <string name="subtitle_dictionaries">Wörterbücher</string>
+    <string name="subtitle_history">Verlauf</string>
+    <string name="subtitle_lookup">Finden</string>
+    <string name="subtitle_settings">Einstellung</string>
+    <string name="title_activity_file_select">Wähle Wörterbuch</string>
+</resources>

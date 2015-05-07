@@ -1,0 +1,96 @@
+﻿<resources>
+    <string name="app_name">Aard 2</string>
+    <string name="subtitle_lookup">Finden</string>
+    <string name="subtitle_bookmark">Lesezeichen</string>
+    <string name="subtitle_history">Verlauf</string>
+    <string name="subtitle_dictionaries">Wörterbücher</string>
+
+    <string name="action_find_dictionaries">Finde Wörterbücher</string>
+    <string name="action_find_in_page">Finde in Seite</string>
+    <string name="action_bookmark_article">Lesezeichen</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_ascending">Aufsteigend</string>
+    <string name="action_descending">Absteigend</string>
+
+    <string name="action_sort_by_title">Nach Titel</string>
+    <string name="action_sort_by_time">Nach Zeit</string>
+    <string name="action_lookup">Lookup</string>
+
+    <!--
+    English only uses "one" and "other" for plurals.
+    Other quantities are included as a fallback if some translation
+    is missing a quantity used in that language, otherwise the app will crash
+    -->
+    <plurals name="dict_item_count">
+        <item quantity="zero">%,d Stichworte</item>
+        <item quantity="one">%,d Stichwort</item>
+        <item quantity="two">%,d Stichworte</item>
+        <item quantity="few">%,d Stichworte</item>
+        <item quantity="many">%,d Stichworte</item>
+        <item quantity="other">%,d Stichworte</item>
+    </plurals>
+
+    <string name="action_zoom_out">Verkleinern</string>
+    <string name="action_zoom_in">Vergrössern</string>
+    <string name="action_zoom_reset">Zoom Reset</string>
+    <string name="action_select_style">Stile...</string>
+    <string name="select_style">Wähle Stil</string>
+    <string name="default_style_title">Default</string>
+    <string name="subtitle_settings">Einstellung</string>
+    <string name="setting_remote_content_always">Immer</string>
+    <string name="setting_remote_content_wifi">Nur mit Wi-Fi</string>
+    <string name="setting_remote_content_never">Nie</string>
+    <string name="setting_remote_content">Lade externen Inhalt</string>
+    <string name="setting_about">Über %1$s</string>
+    <string name="setting_clear_cache">Cache löschen</string>
+    <string name="setting_clear_cache_subtitle">Inhalt des Cache mit externen Bildern löschen</string>
+    <string name="confirm_clear_cached_content">Cache löschen?</string>
+    <string name="article_collection_nothing_found">Nichts gefunden</string>
+    <string name="article_collection_selected_not_available">Gewählter Artikel ist nicht verfügbar</string>
+    <string name="article_collection_nothing_to_lookup">Nichts zum nachschlagen</string>
+    <string name="article_view_msg_not_found">Nichts gefunden</string>
+    <string name="dictionaries_please_wait">Bitte warten</string>
+    <string name="dictionaries_scanning_device">Durchsuche Gerät nach Wörterbüchern...</string>
+    <string name="dictionaries_confirm_forget">Vergesse %1$s?</string>
+    <string name="lookup_nothing_found">Nichts gefunden</string>
+    <string name="main_empty_bookmarks">Kein Lesezeichen</string>
+    <string name="main_empty_history">Kein Verlauf</string>
+    <string name="main_empty_dictionaries">Keine Wörterbücher</string>
+    <string name="delete">Lösche</string>
+    <plurals name="confirm_delete_bookmark_count">
+        <item quantity="zero">%,d Lesezeichen</item>
+        <item quantity="one">%,d Lesezeichen</item>
+        <item quantity="two">%,d Lesezeichen</item>
+        <item quantity="few">%,d Lesezeichen</item>
+        <item quantity="many">%,d Lesezeichen</item>
+        <item quantity="other">%,d Lesezeichen</item>
+    </plurals>
+    <plurals name="confirm_delete_history_count">
+        <item quantity="zero">%,d alte Datensätze</item>
+        <item quantity="one">%,d alter Datensatz</item>
+        <item quantity="two">%,d alte Datensätze</item>
+        <item quantity="few">%,d alte Datensätze</item>
+        <item quantity="many">%,d alte Datensätze</item>
+        <item quantity="other">%,d alte Datensätze</item>
+    </plurals>
+    <string name="blob_descriptor_confirm_delete">Lösche %1$s?</string>
+    <string name="msg_failed_to_read_file">Datei nicht gelesen</string>
+    <string name="msg_file_too_big">Datei zu gross</string>
+    <string name="setting_user_styles">Anwender Stile</string>
+    <string name="setting_user_styles_empty">Keine Stile</string>
+    <string name="msg_failed_to_store_user_style">Kann Stil nicht speichern</string>
+    <string name="setting_user_style_confirm_forget">Vergesse %1$s?</string>
+    <string name="msg_file_not_css">Scheint kein CSS file zu sein</string>
+    <string name="msg_no_activity_to_get_content">Kann Datei nicht öffnen</string>
+    <string name="action_add_dictionaries">Hinzufügen</string>
+    <string name="title_activity_file_select">Wähle Wörterbuch</string>
+    <string name="action_goto_parent_dir">Hoch</string>
+    <string name="action_reload_directory">Neu laden</string>
+    <string name="msg_dictionary_already_open">Schon geöffnet</string>
+    <string name="msg_dictionary_added">Wörterbuch hinzugefügt von %1$s</string>
+    <string name="setting_fav_random_search">Für zufällige Suche nur favorisierte Wörterbücher verwenden</string>
+    <string name="article_collection_invalid_link">Ungültiger Link</string>
+    <string name="setting_ui_theme">Bedieneroberfläche</string>
+    <string name="setting_ui_theme_light">Hell</string>
+    <string name="setting_ui_theme_dark">Dunkel</string>
+</resources>

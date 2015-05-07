@@ -1,0 +1,32 @@
+int attr autoMirrored 0x7f010009
+int attr iconBottom 0x7f010003
+int attr iconEnd 0x7f010005
+int attr iconLeft 0x7f010000
+int attr iconRight 0x7f010002
+int attr iconStart 0x7f010004
+int attr iconTop 0x7f010001
+int attr needMirroring 0x7f01000a
+int attr overridePressed 0x7f01000b
+int attr pressedGlowColor 0x7f01000c
+int attr pressedGlowRadius 0x7f01000d
+int attr text 0x7f010006
+int attr textColor 0x7f010007
+int attr textSize 0x7f010008
+int bool layout_direction_rtl 0x7f020000
+int[] styleable CompoundDrawables { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005 }
+int styleable CompoundDrawables_iconBottom 3
+int styleable CompoundDrawables_iconEnd 5
+int styleable CompoundDrawables_iconLeft 0
+int styleable CompoundDrawables_iconRight 2
+int styleable CompoundDrawables_iconStart 4
+int styleable CompoundDrawables_iconTop 1
+int[] styleable FontIconDrawable { 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a }
+int styleable FontIconDrawable_autoMirrored 3
+int styleable FontIconDrawable_needMirroring 4
+int styleable FontIconDrawable_text 0
+int styleable FontIconDrawable_textColor 1
+int styleable FontIconDrawable_textSize 2
+int[] styleable FontIconView { 0x7f01000b, 0x7f01000c, 0x7f01000d }
+int styleable FontIconView_overridePressed 0
+int styleable FontIconView_pressedGlowColor 1
+int styleable FontIconView_pressedGlowRadius 2

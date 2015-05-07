@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/values-xhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="actionbar_subtitle_size">13sp</dimen>
+    <dimen name="actionbar_textsize">15sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="arrow_margin_right">5dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="button_text_size">13sp</dimen>
+    <dimen name="button_width">130dp</dimen>
+    <dimen name="category_description_row_text_size">16sp</dimen>
+    <dimen name="category_line_heigh">70dp</dimen>
+    <dimen name="category_row_sub_text_size">13sp</dimen>
+    <dimen name="category_row_text_size">17sp</dimen>
+    <dimen name="category_title_row_text_size">20sp</dimen>
+    <dimen name="column_width">50dp</dimen>
+    <dimen name="linearLayout_question_margin_bottom">10dp</dimen>
+    <dimen name="margin_default">10dp</dimen>
+    <dimen name="margin_logo_default">15dp</dimen>
+    <dimen name="no_network_text">16sp</dimen>
+    <dimen name="padding_logo">90dp</dimen>
+    <dimen name="padding_logo_bottom">30dp</dimen>
+    <dimen name="padding_setting_befor_test_layout">10dp</dimen>
+    <dimen name="result_text_size">30sp</dimen>
+    <dimen name="space_gridview">5dp</dimen>
+    <dimen name="space_gridview_vertical">5dp</dimen>
+    <dimen name="table_margin_top">20dp</dimen>
+    <dimen name="table_row_text_size">17sp</dimen>
+    <dimen name="table_title_text_size">20sp</dimen>
+    <dimen name="tablerow_margin_top">5dp</dimen>
+    <dimen name="taskbar_complete_text">14sp</dimen>
+    <dimen name="taskbar_hight">50dp</dimen>
+    <dimen name="taskbar_info_text_size">15sp</dimen>
+    <dimen name="taskbar_name_text_size">18sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_sub_size">14sp</dimen>
+    <dimen name="time_second_size">14sp</dimen>
+    <dimen name="time_size">18sp</dimen>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/values-xhdpi/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+</resources>

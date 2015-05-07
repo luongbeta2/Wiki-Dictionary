@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/values-it/strings.xml -->
+    <eat-comment/>
+    <plurals name="confirm_delete_bookmark_count">
+<item quantity="zero">%,d segnalibri</item>
+<item quantity="one">%,d segnalibro</item>
+<item quantity="two">%,d segnalibri</item>
+<item quantity="few">%,d segnalibri</item>
+<item quantity="many">%,d segnalibri</item>
+<item quantity="other">%,d segnalibri</item>
+</plurals>
+    <plurals name="confirm_delete_history_count">
+<item quantity="zero">%,d risultati</item>
+<item quantity="one">%,d risultato</item>
+<item quantity="two">%,d risultati</item>
+<item quantity="few">%,d risultati</item>
+<item quantity="many">%,d risultati</item>
+<item quantity="other">%,d risulati</item>
+</plurals>
+    <plurals name="dict_item_count">
+<item quantity="zero">%,d voci</item>
+<item quantity="one">%,d voce</item>
+<item quantity="two">%,d voci</item>
+<item quantity="few">%,d voci</item>
+<item quantity="many">%,d voci</item>
+<item quantity="other">%,d voci</item>
+</plurals>
+    <string name="action_add_dictionaries">Aggiungi</string>
+    <string name="action_ascending">Ascendente</string>
+    <string name="action_bookmark_article">Segnalibro</string>
+    <string name="action_descending">Discendente</string>
+    <string name="action_filter">Filtro</string>
+    <string name="action_find_dictionaries">Trova dizionari</string>
+    <string name="action_find_in_page">Trova nella pagina</string>
+    <string name="action_goto_parent_dir">Torna su</string>
+    <string name="action_lookup">Ricerca</string>
+    <string name="action_reload_directory">Ricarica</string>
+    <string name="action_select_style">Stile...</string>
+    <string name="action_sort_by_time">Per data</string>
+    <string name="action_sort_by_title">Per titolo</string>
+    <string name="action_zoom_in">Ingrandisci</string>
+    <string name="action_zoom_out">Riduci</string>
+    <string name="action_zoom_reset">Reset zoom</string>
+    <string name="app_name">Aard 2</string>
+    <string name="article_collection_invalid_link">Collegamento non valido</string>
+    <string name="article_collection_nothing_found">Nessun risultato</string>
+    <string name="article_collection_nothing_to_lookup">Nulla da cercare</string>
+    <string name="article_collection_selected_not_available">La voce selezionata non è disponibile</string>
+    <string name="article_view_msg_not_found">Non trovato</string>
+    <string name="blob_descriptor_confirm_delete">Sei sicuro di voler cancellare %1$s?</string>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-it/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Un\'applicazione richiede l\'aggiornamento dell\'app Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Questa app funzionerà solo dopo avere aggiornato Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Aggiorna Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Attiva Google Play Services"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"L\'app non funzionerà se non attivi Google Play Services."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Attiva Google Play Services"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Richiesta da <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Installa Google Play Services"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"L\'app non funzionerà senza Google Play Services, non presente sul tuo telefono."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"L\'app non funzionerà senza Google Play Services, non presente sul tuo tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Installa Google Play Services"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"L\'account specificato non esiste su questo dispositivo. Scegli un altro account."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Account non valido"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Un\'applicazione richiede l\'attivazione di Google Play Services."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"È necessaria una connessione dati per connettersi a Google Play Services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Errore di rete"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Un\'applicazione richiede l\'installazione di Google Play Services."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Un\'applicazione richiede un aggiornamento di Google Play Services."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Errore Google Play Services"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"Errore durante l\'accesso all\'account specificato. Scegli un altro account."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Accesso non riuscito"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Problema sconosciuto con Google Play Services."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"La piattaforma Google Play Services, su cui sono basate alcune delle tue applicazioni, non è supportata dal dispositivo in uso. Per assistenza, contatta il produttore."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play Services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aggiorna"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"L\'app non funzionerà se non aggiorni Google Play Services."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Aggiorna Google Play Services"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Apri sul telefono"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Accedi"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Accedi con Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Questa app richiede uno o più servizi di Google Play che non sono attualmente disponibili. Contatta lo sviluppatore per ricevere assistenza."</string>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="confirm_clear_cached_content">Vuoi davvero ripulire la cache?</string>
+    <string name="default_style_title">Default</string>
+    <string name="delete">Cancella</string>
+    <string name="dictionaries_confirm_forget">Sei sicuro di voler dimenticare %1$s?</string>
+    <string name="dictionaries_please_wait">Attendere prego...</string>
+    <string name="dictionaries_scanning_device">Rilevamento di dizionari nel dispositivo in corso...</string>
+    <string name="lookup_nothing_found">Nessun risultato</string>
+    <string name="main_empty_bookmarks">Niente segnalibri</string>
+    <string name="main_empty_dictionaries">Niente dizionari</string>
+    <string name="main_empty_history">Niente cronologia</string>
+    <string name="msg_dictionary_added">Aggiunto dizionario da %1$s</string>
+    <string name="msg_dictionary_already_open">Già aperto</string>
+    <string name="msg_failed_to_read_file">Lettura file non riuscita</string>
+    <string name="msg_failed_to_store_user_style">Salvataggio stile utente non riuscito</string>
+    <string name="msg_file_not_css">File CSS non riconosciuto</string>
+    <string name="msg_file_too_big">Il file è troppo grande</string>
+    <string name="msg_no_activity_to_get_content">Nessuna attività disponibile per aprire il file</string>
+    <string name="select_style">Seleziona stile</string>
+    <string name="setting_about">Informazioni su %1$s</string>
+    <string name="setting_clear_cache">Ripulisci la cache</string>
+    <string name="setting_clear_cache_subtitle">Cancella il contenuto della cache (comprese le immagini remote)</string>
+    <string name="setting_fav_random_search">Usa solo i dizionari preferiti per la ricerca casuale</string>
+    <string name="setting_remote_content">Carica contenuto remoto</string>
+    <string name="setting_remote_content_always">Sempre</string>
+    <string name="setting_remote_content_never">Mai</string>
+    <string name="setting_remote_content_wifi">Solo in Wi-Fi</string>
+    <string name="setting_ui_theme">Stile interfaccia utente</string>
+    <string name="setting_ui_theme_dark">Scuro</string>
+    <string name="setting_ui_theme_light">Chiaro</string>
+    <string name="setting_user_style_confirm_forget">Sei sicuro di voler dimenticare %1$s?</string>
+    <string name="setting_user_styles">Stili utente</string>
+    <string name="setting_user_styles_empty">Niente stili</string>
+    <string name="subtitle_bookmark">Segnalibri</string>
+    <string name="subtitle_dictionaries">Dizionari</string>
+    <string name="subtitle_history">Cronologia</string>
+    <string name="subtitle_lookup">Ricerca</string>
+    <string name="subtitle_settings">Impostazioni</string>
+    <string name="title_activity_file_select">Seleziona file</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/main/Projects/fonticon/lib/src/main/res/values-sd/rtl.xml -->
+    <eat-comment />
+
+    <bool name="layout_direction_rtl">true</bool>
+
+</resources>

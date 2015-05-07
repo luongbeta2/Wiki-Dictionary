@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/dictionary_aard_android/fonticon/unspecified/res/values-ps/values.xml -->
+    <eat-comment/>
+    <bool name="layout_direction_rtl">true</bool>
+</resources>

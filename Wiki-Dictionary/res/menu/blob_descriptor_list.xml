@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_filter"
+        android:actionLayout="@layout/action_filter"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/action_filter"/>
+    <item
+        android:id="@+id/action_sort_asc"
+        android:title="@string/action_ascending"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_sort_order"
+        android:title="@string/action_descending"
+        android:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,609 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Lint Report</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" type="text/css" href="lint-results_files/hololike.css" />
+<script language="javascript" type="text/javascript"> 
+<!--
+function reveal(id) {
+if (document.getElementById) {
+document.getElementById(id).style.display = 'block';
+document.getElementById(id+'Link').style.display = 'none';
+}
+}
+//--> 
+</script>
+</head>
+<body>
+<h1>Lint Report</h1>
+<div class="titleSeparator"></div>
+Check performed at Mon Mar 30 00:16:08 ICT 2015.<br/>
+13 errors and 7 warnings found:<br/><br/>
+<table class="overview">
+<tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#GradleDeprecated">GradleDeprecated: Deprecated Gradle Construct</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#InlinedApi">InlinedApi: Using inlined constants on older versions</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#LocaleFolder">LocaleFolder: Wrong locale name</a>
+</td></tr>
+<tr>
+<td class="countColumn">13</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-error.png" alt="Error" />
+<a href="#NewApi">NewApi: Calling new methods on older versions</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Security">Security</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#UsingHttp">UsingHttp: Using HTTP instead of HTTPS</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Performance">Performance</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#UnusedResources">UnusedResources: Unused resources</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" src="lint-results_files/lint-warning.png" alt="Warning" />
+<a href="#IconMissingDensityFolder">IconMissingDensityFolder: Missing density folder</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (11)</a>
+</td></tr></table>
+<br/>
+<a name="Correctness"></a>
+<div class="category"><a href="#" title="Return to top">Correctness</a><div class="categorySeparator"></div>
+</div>
+<a name="GradleDeprecated"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">GradleDeprecated: Deprecated Gradle Construct</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:1</span>: <span class="message">'android-library' is deprecated; use 'com.android.library' instead</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> <span class="errorspan">apply plugin: 'android-library'</span>
+<span class="lineno">   2</span> 
+<span class="lineno">   3</span> dependencies {
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Deprecated Gradle Construct.</div>
+<div class="explanation">
+This detector looks for deprecated Gradle constructs which currently work but will likely stop working in a future update.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "GradleDeprecated" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="InlinedApi"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">InlinedApi: Using inlined constants on older versions</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconDrawable.java">../../src/com/shamanland/fonticon/FontIconDrawable.java</a>:304</span>: <span class="message">Field requires API level 19 (current min is 1): <code>android.util.LayoutDirection#RTL</code></span><br /><pre class="errorlines">
+<span class="lineno"> 301</span>             //noinspection deprecation
+<span class="lineno"> 302</span>             return isNeedMirroring();
+<span class="lineno"> 303</span>         } else {
+<span class="lineno"> 304</span>             return isAutoMirrored() &amp;&amp; MethodGetLayoutDirection.invoke(this) == <span class="errorspan">LayoutDirection.RTL;</span>
+<span class="lineno"> 305</span>         }
+<span class="lineno"> 306</span>     }
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using inlined constants on older versions.</div>
+<div class="explanation">
+This check scans through all the Android API field references in the application and flags certain constants, such as static final integers and Strings, which were introduced in later versions. These will actually be copied into the class files rather than being referenced, which means that the value is available even when running on older devices. In some cases that's fine, and in other cases it can result in a runtime crash or incorrect behavior. It depends on the context, so consider the code carefully and device whether it's safe and can be suppressed or whether the code needs tbe guarded.<br/>
+<br/>
+If you really want to use this API and don't need to support older devices just set the <code>minSdkVersion</code> in your <code>build.gradle</code> or <code>AndroidManifest.xml</code> files.<br/>
+If your code is <b>deliberately</b> accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the <code>@TargetApi</code> annotation specifying the local minimum SDK to apply, such as <code>@TargetApi(11)</code>, such that this check considers 11 rather than your manifest file's minimum SDK as the required API level.<br/>
+
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "InlinedApi" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="LocaleFolder"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">LocaleFolder: Wrong locale name</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/values-he">../../res/values-he</a></span>: <span class="message">The locale folder "<code>he</code>" should be called "<code>iw</code>" instead; see the <code>java.util.Locale</code> documentation</span><br />
+<span class="location"><a href="../../res/values-yi">../../res/values-yi</a></span>: <span class="message">The locale folder "<code>yi</code>" should be called "<code>ji</code>" instead; see the <code>java.util.Locale</code> documentation</span><br />
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Wrong locale name.</div>
+<div class="explanation">
+From the <code>java.util.Locale</code> documentation:<br/>
+"Note that Java uses several deprecated two-letter codes. The Hebrew ("he") language code is rewritten as "iw", Indonesian ("id") as "in", and Yiddish ("yi") as "ji". This rewriting happens even if you construct your own Locale object, not just for instances returned by the various lookup methods.<br/>
+<br/>
+Because of this, if you add your localized resources in for example <code>values-he</code> they will not be used, since the system will look for <code>values-iw</code> instead.<br/>
+<br/>
+To work around this, place your resources in a <code>values</code> folder using the deprecated language code instead.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/java/util/Locale.html">http://developer.android.com/reference/java/util/Locale.html</a>
+</div><br/>To suppress this error, use the issue id "LocaleFolder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NewApi"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">NewApi: Calling new methods on older versions</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/com/shamanland/fonticon/CompoundDrawables.java">../../src/com/shamanland/fonticon/CompoundDrawables.java</a>:46</span>: <span class="message">Field requires API level 4 (current min is 1): <code>android.os.Build.VERSION#SDK_INT</code></span><br /><pre class="errorlines">
+<span class="lineno">  43</span>         try {
+<span class="lineno">  44</span>             initCompoundDrawables(context, view, a);
+<span class="lineno">  45</span> 
+<span class="lineno">  46</span>             if (Build.VERSION.<span class="errorspan">SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {</span>
+<span class="lineno">  47</span>                 initCompoundDrawablesRelative(context, view, a);
+<span class="lineno">  48</span>             }
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconButton.java">../../src/com/shamanland/fonticon/FontIconButton.java</a>:17</span>: <span class="message">Call requires API level 3 (current min is 1): <code>android.widget.Button#isInEditMode</code></span><br /><pre class="errorlines">
+<span class="lineno">  14</span>     public FontIconButton(Context context, AttributeSet attrs) {
+<span class="lineno">  15</span>         super(context, attrs);
+<span class="lineno">  16</span> 
+<span class="lineno">  17</span>         if (!<span class="errorspan">isInEditMode()) {</span>
+<span class="lineno">  18</span>             CompoundDrawables.init(context, attrs, this);
+<span class="lineno">  19</span>         }
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconButton.java">../../src/com/shamanland/fonticon/FontIconButton.java</a>:25</span>: <span class="message">Call requires API level 3 (current min is 1): <code>android.widget.Button#isInEditMode</code></span><br /><pre class="errorlines">
+<span class="lineno">  22</span>     public FontIconButton(Context context, AttributeSet attrs, int defStyle) {
+<span class="lineno">  23</span>         super(context, attrs, defStyle);
+<span class="lineno">  24</span> 
+<span class="lineno">  25</span>         if (!<span class="errorspan">isInEditMode()) {</span>
+<span class="lineno">  26</span>             CompoundDrawables.init(context, attrs, this);
+<span class="lineno">  27</span>         }
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconDrawable.java">../../src/com/shamanland/fonticon/FontIconDrawable.java</a>:300</span>: <span class="message">Field requires API level 4 (current min is 1): <code>android.os.Build.VERSION#SDK_INT</code></span><br /><pre class="errorlines">
+<span class="lineno"> 297</span> 
+<span class="lineno"> 298</span>     protected boolean needMirroring() {
+<span class="lineno"> 299</span>         //noinspection SimplifiableIfStatement
+<span class="lineno"> 300</span>         if (Build.VERSION.<span class="errorspan">SDK_INT &lt; Build.VERSION_CODES.KITKAT) {</span>
+<span class="lineno"> 301</span>             //noinspection deprecation
+<span class="lineno"> 302</span>             return isNeedMirroring();
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconEditText.java">../../src/com/shamanland/fonticon/FontIconEditText.java</a>:17</span>: <span class="message">Call requires API level 3 (current min is 1): <code>android.widget.EditText#isInEditMode</code></span><br /><pre class="errorlines">
+<span class="lineno">  14</span>     public FontIconEditText(Context context, AttributeSet attrs) {
+<span class="lineno">  15</span>         super(context, attrs);
+<span class="lineno">  16</span> 
+<span class="lineno">  17</span>         if (!<span class="errorspan">isInEditMode()) {</span>
+<span class="lineno">  18</span>             CompoundDrawables.init(context, attrs, this);
+<span class="lineno">  19</span>         }
+</pre>
+<button id="NewApiDivLink" onclick="reveal('NewApiDiv');" />+ 8 More Occurrences...</button>
+<div id="NewApiDiv" style="display: none">
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconEditText.java">../../src/com/shamanland/fonticon/FontIconEditText.java</a>:25</span>: <span class="message">Call requires API level 3 (current min is 1): <code>android.widget.EditText#isInEditMode</code></span><br /><pre class="errorlines">
+<span class="lineno">  22</span>     public FontIconEditText(Context context, AttributeSet attrs, int defStyle) {
+<span class="lineno">  23</span>         super(context, attrs, defStyle);
+<span class="lineno">  24</span> 
+<span class="lineno">  25</span>         if (!<span class="errorspan">isInEditMode()) {</span>
+<span class="lineno">  26</span>             CompoundDrawables.init(context, attrs, this);
+<span class="lineno">  27</span>         }
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconTextView.java">../../src/com/shamanland/fonticon/FontIconTextView.java</a>:17</span>: <span class="message">Call requires API level 3 (current min is 1): <code>android.widget.TextView#isInEditMode</code></span><br /><pre class="errorlines">
+<span class="lineno">  14</span>     public FontIconTextView(Context context, AttributeSet attrs) {
+<span class="lineno">  15</span>         super(context, attrs);
+<span class="lineno">  16</span> 
+<span class="lineno">  17</span>         if (!<span class="errorspan">isInEditMode()) {</span>
+<span class="lineno">  18</span>             CompoundDrawables.init(context, attrs, this);
+<span class="lineno">  19</span>         }
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconTextView.java">../../src/com/shamanland/fonticon/FontIconTextView.java</a>:25</span>: <span class="message">Call requires API level 3 (current min is 1): <code>android.widget.TextView#isInEditMode</code></span><br /><pre class="errorlines">
+<span class="lineno">  22</span>     public FontIconTextView(Context context, AttributeSet attrs, int defStyle) {
+<span class="lineno">  23</span>         super(context, attrs, defStyle);
+<span class="lineno">  24</span> 
+<span class="lineno">  25</span>         if (!<span class="errorspan">isInEditMode()) {</span>
+<span class="lineno">  26</span>             CompoundDrawables.init(context, attrs, this);
+<span class="lineno">  27</span>         }
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconToggleButton.java">../../src/com/shamanland/fonticon/FontIconToggleButton.java</a>:17</span>: <span class="message">Call requires API level 3 (current min is 1): <code>android.widget.ToggleButton#isInEditMode</code></span><br /><pre class="errorlines">
+<span class="lineno">  14</span>     public FontIconToggleButton(Context context, AttributeSet attrs) {
+<span class="lineno">  15</span>         super(context, attrs);
+<span class="lineno">  16</span> 
+<span class="lineno">  17</span>         if (!<span class="errorspan">isInEditMode()) {</span>
+<span class="lineno">  18</span>             CompoundDrawables.init(context, attrs, this);
+<span class="lineno">  19</span>         }
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconToggleButton.java">../../src/com/shamanland/fonticon/FontIconToggleButton.java</a>:25</span>: <span class="message">Call requires API level 3 (current min is 1): <code>android.widget.ToggleButton#isInEditMode</code></span><br /><pre class="errorlines">
+<span class="lineno">  22</span>     public FontIconToggleButton(Context context, AttributeSet attrs, int defStyle) {
+<span class="lineno">  23</span>         super(context, attrs, defStyle);
+<span class="lineno">  24</span> 
+<span class="lineno">  25</span>         if (!<span class="errorspan">isInEditMode()) {</span>
+<span class="lineno">  26</span>             CompoundDrawables.init(context, attrs, this);
+<span class="lineno">  27</span>         }
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconView.java">../../src/com/shamanland/fonticon/FontIconView.java</a>:126</span>: <span class="message">Call requires API level 3 (current min is 1): <code>android.widget.CheckedTextView#isInEditMode</code></span><br /><pre class="errorlines">
+<span class="lineno"> 123</span>     }
+<span class="lineno"> 124</span> 
+<span class="lineno"> 125</span>     /* instance initialization block */ {
+<span class="lineno"> 126</span>         if (<span class="errorspan">isInEditMode()) {</span>
+<span class="lineno"> 127</span>             mOldValuesSaver = null;
+<span class="lineno"> 128</span>         } else {
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconView.java">../../src/com/shamanland/fonticon/FontIconView.java</a>:131</span>: <span class="message">Field requires API level 4 (current min is 1): <code>android.os.Build.VERSION#SDK_INT</code></span><br /><pre class="errorlines">
+<span class="lineno"> 128</span>         } else {
+<span class="lineno"> 129</span>             setTypeface(FontIconTypefaceHolder.getTypeface());
+<span class="lineno"> 130</span> 
+<span class="lineno"> 131</span>             if (Build.VERSION.<span class="errorspan">SDK_INT &lt; Build.VERSION_CODES.JELLY_BEAN) {</span>
+<span class="lineno"> 132</span>                 mOldValuesSaver = new Runnable() {
+<span class="lineno"> 133</span>                     @Override
+</pre>
+<span class="location"><a href="../../src/com/shamanland/fonticon/FontIconView.java">../../src/com/shamanland/fonticon/FontIconView.java</a>:166</span>: <span class="message">Field requires API level 4 (current min is 1): <code>android.os.Build.VERSION#SDK_INT</code></span><br /><pre class="errorlines">
+<span class="lineno"> 163</span> 
+<span class="lineno"> 164</span>     protected boolean needMirroring() {
+<span class="lineno"> 165</span>         //noinspection SimplifiableIfStatement
+<span class="lineno"> 166</span>         if (Build.VERSION.<span class="errorspan">SDK_INT &lt; Build.VERSION_CODES.JELLY_BEAN_MR1) {</span>
+<span class="lineno"> 167</span>             //noinspection deprecation
+<span class="lineno"> 168</span>             return isNeedMirroring();
+</pre>
+</div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: Calling new methods on older versions.</div>
+<div class="explanation">
+This check scans through all the Android API calls in the application and warns about any calls that are not available on <b>all</b> versions targeted by this application (according to its minimum SDK attribute in the manifest).<br/>
+<br/>
+If you really want to use this API and don't need to support older devices just set the <code>minSdkVersion</code> in your <code>build.gradle</code> or <code>AndroidManifest.xml</code> files.<br/>
+If your code is <b>deliberately</b> accessing newer APIs, and you have ensured (e.g. with conditional execution) that this code will only ever be called on a supported platform, then you can annotate your class or method with the <code>@TargetApi</code> annotation specifying the local minimum SDK to apply, such as <code>@TargetApi(11)</code>, such that this check considers 11 rather than your manifest file's minimum SDK as the required API level.<br/>
+<br/>
+If you are deliberately setting <code>android:</code> attributes in style definitions, make sure you place this in a <code>values-vNN</code> folder in order to avoid running into runtime conflicts on certain devices where manufacturers have added custom attributes whose ids conflict with the new ones on later platforms.<br/>
+<br/>
+Similarly, you can use tools:targetApi="11" in an XML file to indicate that the element will only be inflated in an adequate context.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NewApi" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Security"></a>
+<div class="category"><a href="#" title="Return to top">Security</a><div class="categorySeparator"></div>
+</div>
+<a name="UsingHttp"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UsingHttp: Using HTTP instead of HTTPS</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../gradle/wrapper/gradle-wrapper.properties">../../gradle/wrapper/gradle-wrapper.properties</a>:6</span>: <span class="message">Replace HTTP with HTTPS for better security; use https\://services.gradle.org/distributions/gradle-1.12-all.zip</span><br /><pre class="errorlines">
+<span class="lineno">   3</span> distributionPath=wrapper/dists
+<span class="lineno">   4</span> zipStoreBase=GRADLE_USER_HOME
+<span class="lineno">   5</span> zipStorePath=wrapper/dists
+<span class="lineno">   6</span> distributionUrl=<span class="errorspan">http\://services.gradle.org/distributions/gradle-1.12-all.zip</span>
+<span class="lineno">   7</span> 
+
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using HTTP instead of HTTPS.</div>
+<div class="explanation">
+The Gradle Wrapper is available both via HTTP and HTTPS. HTTPS is more secure since it protects against man-in-the-middle attacks etc. Older projects created in Android Studio used HTTP but we now default to HTTPS and recommend upgrading existing projects.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UsingHttp" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Performance"></a>
+<div class="category"><a href="#" title="Return to top">Performance</a><div class="categorySeparator"></div>
+</div>
+<a name="UnusedResources"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UnusedResources: Unused resources</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res/values/rtl.xml">../../res/values/rtl.xml</a>:3</span>: <span class="message">The resource <code>R.bool.layout_direction_rtl</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> &lt;resources>
+<span class="lineno">   3</span>     &lt;bool <span class="errorspan">name="layout_direction_rtl">false&lt;/bool></span>
+<span class="lineno">   4</span> &lt;/resources>
+<span class="lineno">   5</span> 
+</pre>
+<ul></ul><button id="Location1DivLink" onclick="reveal('Location1Div');" />+ 11 Additional Locations...</button>
+<div id="Location1Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../res/values-ar/rtl.xml">../../res/values-ar/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-dv/rtl.xml">../../res/values-dv/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-fa/rtl.xml">../../res/values-fa/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-he/rtl.xml">../../res/values-he/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-ku/rtl.xml">../../res/values-ku/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-ldrtl/rtl.xml">../../res/values-ldrtl/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-ps/rtl.xml">../../res/values-ps/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-sd/rtl.xml">../../res/values-sd/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-ug/rtl.xml">../../res/values-ug/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-ur/rtl.xml">../../res/values-ur/rtl.xml</a>:3</span>
+<li> <span class="location"><a href="../../res/values-yi/rtl.xml">../../res/values-yi/rtl.xml</a>:3</span>
+</ul>
+</div><br/><br/>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused resources.</div>
+<div class="explanation">
+Unused resources make applications larger and slow down builds.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability:Icons"></a>
+<div class="category"><a href="#" title="Return to top">Usability:Icons</a><div class="categorySeparator"></div>
+</div>
+<a name="IconMissingDensityFolder"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconMissingDensityFolder: Missing density folder</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../res">../../res</a></span>: <span class="message">Missing density variation folders in <code>res</code>: drawable-xxhdpi, drawable-xxxhdpi</span><br />
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing density folder.</div>
+<div class="explanation">
+Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as <code>drawable-hdpi</code>.<br/>
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable <code>ANDROID_LINT_INCLUDE_LDPI=true</code>. For more information on current density usage, see <a href="http://developer.android.com/resources/dashboard/screens.html">http://developer.android.com/resources/dashboard/screens.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconMissingDensityFolder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="MissingIssues"></a>
+<div class="category">Disabled Checks<div class="categorySeparator"></div>
+</div>
+The following issues were not run by lint, either because the check is not enabled by default, or because it was disabled with a command line flag or via one or more lint.xml configuration files in the project directories.
+<br/><br/>
+<a name="BackButton"></a>
+<div class="issue">
+<div class="id">BackButton<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Back button.</div>
+<div class="explanation">
+According to the Android Design Guide,<br/>
+<br/>
+"Other platforms use an explicit back button with label to allow the user to navigate up the application's hierarchy. Instead, Android uses the main action bar's app icon for hierarchical navigation and the navigation bar's back button for temporal navigation."<br/>
+This check is not very sophisticated (it just looks for buttons with the label "Back"), so it is disabled by default to not trigger on common scenarios like pairs of Back/Next buttons to paginate through screens.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/patterns/pure-android.html">http://developer.android.com/design/patterns/pure-android.html</a>
+</div><br/>To suppress this error, use the issue id "BackButton" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="EasterEgg"></a>
+<div class="issue">
+<div class="id">EasterEgg<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains easter egg.</div>
+<div class="explanation">
+An "easter egg" is code deliberately hidden in the code, both from potential users and even from other developers. This lint check looks for code which looks like it may be hidden from sight.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "EasterEgg" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="FieldGetter"></a>
+<div class="issue">
+<div class="id">FieldGetter<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using getter instead of field.</div>
+<div class="explanation">
+Accessing a field within the class that defines a getter for that field is at least 3 times faster than calling the getter. For simple getters that do nothing other than return the field, you might want to just reference the local field directly instead.<br/>
+<br/>
+<b>NOTE</b>: As of Android 2.3 (Gingerbread), this optimization is performed automatically by Dalvik, so there is no need to change your code; this is only relevant if you are targeting older versions of Android.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/design/performance.html#internal_get_set">http://developer.android.com/guide/practices/design/performance.html#internal_get_set</a>
+</div><br/>To suppress this error, use the issue id "FieldGetter" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconExpectedSize"></a>
+<div class="issue">
+<div class="id">IconExpectedSize<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon has incorrect size.</div>
+<div class="explanation">
+There are predefined sizes (for each density) for launcher icons. You should follow these conventions to make sure your icons fit in with the overall look of the platform.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/style/iconography.html">http://developer.android.com/design/style/iconography.html</a>
+</div><br/>To suppress this error, use the issue id "IconExpectedSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="LogConditional"></a>
+<div class="issue">
+<div class="id">LogConditional<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unconditional Logging Calls.</div>
+<div class="explanation">
+The BuildConfig class (available in Tools 17) provides a constant, "DEBUG", which indicates whether the code is being built in release mode or in debug mode. In release mode, you typically want to strip out all the logging calls. Since the compiler will automatically remove all code which is inside a "if (false)" check, surrounding your logging calls with a check for BuildConfig.DEBUG is a good idea.<br/>
+<br/>
+If you <b>really</b> intend for the logging to be present in release mode, you can suppress this warning with a @SuppressLint annotation for the intentional logging calls.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "LogConditional" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NegativeMargin"></a>
+<div class="issue">
+<div class="id">NegativeMargin<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Negative Margins.</div>
+<div class="explanation">
+Margin values should be positive. Negative values are generally a sign that you are making assumptions about views surrounding the current one, or may be tempted to turn off child clipping to allow a view to escape its parent. Turning off child clipping to do this not only leads to poor graphical performance, it also results in wrong touch event handling since touch events are based strictly on a chain of parent-rect hit tests. Finally, making assumptions about the size of strings can lead to localization problems.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NegativeMargin" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NewerVersionAvailable"></a>
+<div class="issue">
+<div class="id">NewerVersionAvailable<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Newer Library Versions Available.</div>
+<div class="explanation">
+This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project.<br/>
+This is similar to the <code>GradleDependency</code> check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also <b>much</b> slower.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NewerVersionAvailable" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="SelectableText"></a>
+<div class="issue">
+<div class="id">SelectableText<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 7 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Dynamic text should probably be selectable.</div>
+<div class="explanation">
+If a <code>&lt;TextView></code> is used to display data, the user might want to copy that data and paste it elsewhere. To allow this, the <code>&lt;TextView></code> should specify <code>android:textIsSelectable="true"</code>.<br/>
+<br/>
+This lint check looks for TextViews which are likely to be displaying data: views whose text is set dynamically. This value will be ignored on platforms older than API 11, so it is okay to set it regardless of your <code>minSdkVersion</code>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "SelectableText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="StopShip"></a>
+<div class="issue">
+<div class="id">StopShip<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 10 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains <code>STOPSHIP</code> marker.</div>
+<div class="explanation">
+Using the comment <code>// STOPSHIP</code> can be used to flag code that is incomplete but checked in. This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "StopShip" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="TypographyQuotes"></a>
+<div class="issue">
+<div class="id">TypographyQuotes<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT & Android Studio/IntelliJ&nbsp;<img alt="Fix" border="0" align="top" src="lint-results_files/lint-run.png" />
+<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Typography</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Straight quotes can be replaced with curvy quotes.</div>
+<div class="explanation">
+Straight single quotes and double quotes, when used as a pair, can be replaced by "curvy quotes" (or directional quotes). This can make the text more readable.<br/>
+<br/>
+Note that you should never use grave accents and apostrophes to quote, `like this'.<br/>
+<br/>
+(Also note that you should not use curvy quotes for code fragments.)
+</div>
+<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Quotation_mark">http://en.wikipedia.org/wiki/Quotation_mark</a>
+</div><br/>To suppress this error, use the issue id "TypographyQuotes" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedIds"></a>
+<div class="issue">
+<div class="id">UnusedIds<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 1 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused id.</div>
+<div class="explanation">
+This resource id definition appears not to be needed since it is not referenced from anywhere. Having id definitions, even if unused, is not necessarily a bad idea since they make working on layouts and menus easier, so there is not a strong reason to delete these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="SuppressInfo"></a>
+<div class="category">Suppressing Warnings and Errors<div class="categorySeparator"></div>
+</div>
+Lint errors can be suppressed in a variety of ways:<br/>
+<br/>
+1. With a <code>@SuppressLint</code> annotation in the Java code<br/>
+2. With a <code>tools:ignore</code> attribute in the XML file<br/>
+3. With ignore flags specified in the <code>build.gradle</code> file, as explained below<br/>
+4. With a <code>lint.xml</code> configuration file in the project<br/>
+5. With a <code>lint.xml</code> configuration file passed to lint via the --config flag<br/>
+6. With the --ignore flag passed to lint.<br/>
+<br/>
+To suppress a lint warning with an annotation, add a <code>@SuppressLint("id")</code> annotation on the class, method or variable declaration closest to the warning instance you want to disable. The id can be one or more issue id's, such as <code>"UnusedResources"</code> or <code>{"UnusedResources","UnusedIds"}</code>, or it can be <code>"all"</code> to suppress all lint warnings in the given scope.<br/>
+<br/>
+To suppress a lint warning in an XML file, add a <code>tools:ignore="id"</code> attribute on the element containing the error, or one of its surrounding elements. You also need to define the namespace for the tools prefix on the root element in your document, next to the <code>xmlns:android</code> declaration:<br/>
+<code>xmlns:tools="http://schemas.android.com/tools"</code><br/>
+<br/>
+To suppress a lint warning in a <code>build.gradle</code> file, add a section like this:<br/>
+<br/>
+android {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;lintOptions {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disable 'TypographyFractions','TypographyQuotes'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+}<br/>
+<br/>
+Here we specify a comma separated list of issue id's after the disable command. You can also use <code>warning</code> or <code>error</code> instead of <code>disable</code> to change the severity of issues.<br/>
+<br/>
+To suppress lint warnings with a configuration XML file, create a file named <code>lint.xml</code> and place it at the root directory of the project in which it applies.<br/>
+<br/>
+The format of the <code>lint.xml</code> file is something like the following:<br/>
+<br/>
+&lt;?xml version="1.0" encoding="UTF-8"?><br/>
+&lt;lint><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Disable this given check in this project --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="IconMissingDensityFolder" severity="ignore" /><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the ObsoleteLayoutParam issue in the given files --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="ObsoleteLayoutParam"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout-xlarge/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the UselessLeaf issue in the given file --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="UselessLeaf"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/main.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Change the severity of hardcoded strings to "error" --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="HardcodedText" severity="error" /><br/>
+&lt;/lint><br/>
+<br/>
+To suppress lint checks from the command line, pass the --ignore flag with a comma separated list of ids to be suppressed, such as:<br/>
+<code>$ lint --ignore UnusedResources,UselessLeaf /my/project/path</code><br/>
+<br/>
+For more information, see <a href="http://tools.android.com/tips/lint/suppressing-lint-warnings">http://tools.android.com/tips/lint/suppressing-lint-warnings</a><br/>
+
+
+</body>
+</html>

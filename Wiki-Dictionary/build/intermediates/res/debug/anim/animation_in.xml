@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <alpha
+        android:duration="400"
+        android:fromAlpha="0"
+        android:toAlpha="1.0" />
+
+</set>
+<!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/anim/animation_in.xml -->

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="-100%p"
+    android:toXDelta="0"
+    android:duration="200" /><!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/anim/rail1.xml -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/fonticon/res/values/rtl.xml -->
+    <eat-comment/>
+    <bool name="layout_direction_rtl">false</bool>
+    <declare-styleable name="CompoundDrawables"><attr format="reference" name="iconLeft"/><attr format="reference" name="iconTop"/><attr format="reference" name="iconRight"/><attr format="reference" name="iconBottom"/><attr format="reference" name="iconStart"/><attr format="reference" name="iconEnd"/></declare-styleable>
+    <declare-styleable name="FontIconDrawable"><attr format="string|reference" name="text"/><attr format="color|reference" name="textColor"/><attr format="dimension|reference" name="textSize"/><attr format="boolean|reference" name="autoMirrored"/><attr format="boolean|reference" name="needMirroring"/></declare-styleable>
+    <declare-styleable name="FontIconView"><attr format="boolean|reference" name="overridePressed"/><attr format="color|reference" name="pressedGlowColor"/><attr format="dimension|reference" name="pressedGlowRadius"/></declare-styleable>
+</resources>

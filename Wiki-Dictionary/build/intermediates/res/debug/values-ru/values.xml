@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <plurals name="confirm_delete_bookmark_count">
+        <item quantity="zero">%,d закладок</item>
+        <item quantity="one">%,d закладку</item>
+        <item quantity="few">%,d закладки</item>
+        <item quantity="many">%,d закладок</item>
+    </plurals>
+    <plurals name="confirm_delete_history_count">
+        <item quantity="zero">%,d записей</item>
+        <item quantity="one">%,d запись</item>
+        <item quantity="few">%,d записи</item>
+        <item quantity="many">%,d записей</item>
+    </plurals>
+    <plurals name="dict_item_count">
+        <item quantity="zero">%,d статей</item>
+        <item quantity="one">%,d статья</item>
+        <item quantity="few">%,d статьи</item>
+        <item quantity="many">%,d статей</item>
+    </plurals>
+    <string name="action_add_dictionaries">Добавить</string>
+    <string name="action_ascending">По возрастанию</string>
+    <string name="action_bookmark_article">Закладка</string>
+    <string name="action_descending">По убыванию</string>
+    <string name="action_filter">Фильтр</string>
+    <string name="action_find_dictionaries">Искать словари</string>
+    <string name="action_find_in_page">Поиск на странице</string>
+    <string name="action_goto_parent_dir">Вверх</string>
+    <string name="action_lookup">Поиск</string>
+    <string name="action_reload_directory">Перезагрузить</string>
+    <string name="action_select_style">Стиль...</string>
+    <string name="action_sort_by_time">По времени</string>
+    <string name="action_sort_by_title">По названию</string>
+    <string name="action_zoom_in">Увеличить</string>
+    <string name="action_zoom_out">Уменьшить</string>
+    <string name="action_zoom_reset">Сброс масштаба</string>
+    <string name="app_name">Aard 2</string>
+    <string name="application_version">Версия %1$s</string>
+    <string name="article_collection_invalid_link">Некорректная ссылка</string>
+    <string name="article_collection_nothing_found">Ничего не найдено</string>
+    <string name="article_collection_nothing_to_lookup">Не указано что искать</string>
+    <string name="article_collection_selected_not_available">Выбранная статья недоступна</string>
+    <string name="article_view_msg_not_found">Ресурс не найден</string>
+    <string name="blob_descriptor_confirm_delete">Удалить %1$s?</string>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/res/values-ru/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Требуется обновить приложение Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Для работы этого приложения требуется обновить Android Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Обновить Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Для работы этого приложения требуется включить Сервисы Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Включите Сервисы Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Источник запроса: <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Для работы этого приложения требуется установить Сервисы Google Play."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Для работы этого приложения требуется установить Сервисы Google Play."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Установите Сервисы Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Этого аккаунта нет на устройстве. Выберите другой."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Недействительный аккаунт"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Для работы приложения требуется включить сервисы Google Play"</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Для работы с Google Play требуется подключение к сети."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Ошибка сети"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Для работы приложения требуется установить сервисы Google Play"</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Для работы приложения требуется обновить сервисы Google Play"</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="5194079840165204725" name="common_google_play_services_sign_in_failed_text">"При входе в указанный аккаунт произошла ошибка. Выберите другой аккаунт."</string>
+    <string msgid="8164948898147532159" name="common_google_play_services_sign_in_failed_title">"Ошибка входа"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Неизвестная ошибка с Сервисами Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Сервисы Google Play, необходимые для работы некоторых приложений, не поддерживаются на вашем устройстве. Обратитесь к производителю."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Сервисы Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Для работы этого приложения требуется обновить Сервисы Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Обновите Сервисы Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Войти"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Войти в аккаунт Google"</string>
+    <string msgid="5000919058582214855" name="commono_google_play_services_api_unavailable_text">"Сервисы Google Play, необходимые для работы приложения, сейчас недоступны. Обратитесь за помощью к разработчику."</string>
+    <!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="confirm_clear_cached_content">Очистить содержимое кэша?</string>
+    <string name="default_style_title">По умолчанию</string>
+    <string name="delete">Удалить</string>
+    <string name="dictionaries_confirm_forget">Исключить %1$s?</string>
+    <string name="dictionaries_please_wait">Подождите</string>
+    <string name="dictionaries_scanning_device">Идёт поиск словарей на устройстве...</string>
+    <string name="lookup_nothing_found">Ничего не найдено</string>
+    <string name="main_empty_bookmarks">Нет закладок</string>
+    <string name="main_empty_dictionaries">Нет словарей</string>
+    <string name="main_empty_history">Нет истории</string>
+    <string name="msg_dictionary_added">Добавлен словарь из файла %1$s</string>
+    <string name="msg_dictionary_already_open">Словарь уже открыт</string>
+    <string name="msg_failed_to_read_file">Не удалось прочитать файл</string>
+    <string name="msg_failed_to_store_user_style">Не удалось сохранить пользовательский стиль</string>
+    <string name="msg_file_not_css">Это не CSS файл</string>
+    <string name="msg_file_too_big">Слишком большой файл</string>
+    <string name="msg_no_activity_to_get_content">Нечем открыть файл</string>
+    <string name="select_style">Выбрать стиль</string>
+    <string name="setting_about">О %1$s</string>
+    <string name="setting_clear_cache">Очистка кэша</string>
+    <string name="setting_clear_cache_subtitle">Удалить кэшированный контент, включая загруженные изображения</string>
+    <string name="setting_fav_random_search">Использовать только избранные словари для случайного поиска</string>
+    <string name="setting_remote_content">Загрузка удаленного содержимого</string>
+    <string name="setting_remote_content_always">Всегда</string>
+    <string name="setting_remote_content_never">Никогда</string>
+    <string name="setting_remote_content_wifi">Только по Wi-Fi</string>
+    <string name="setting_ui_theme">Интерфейс</string>
+    <string name="setting_ui_theme_dark">Тёмный</string>
+    <string name="setting_ui_theme_light">Светлый</string>
+    <string name="setting_user_style_confirm_forget">Исключить %1$s?</string>
+    <string name="setting_user_styles">Стили пользователя</string>
+    <string name="setting_user_styles_empty">Нет стилей</string>
+    <string name="subtitle_bookmark">Закладки</string>
+    <string name="subtitle_dictionaries">Словари</string>
+    <string name="subtitle_history">История</string>
+    <string name="subtitle_lookup">Поиск</string>
+    <string name="subtitle_settings">Настройки</string>
+    <string name="title_activity_file_select">Выберите файл словаря</string>
+</resources>

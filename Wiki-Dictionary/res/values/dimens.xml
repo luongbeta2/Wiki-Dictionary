@@ -1,0 +1,50 @@
+<resources>
+
+    <dimen name="tab_icon">21dp</dimen>
+    <dimen name="actionbar_icon">26dp</dimen>
+    <!-- These two icons looks larger than others at the same size for some reason -->
+    <dimen name="sort_asc_desc_icon">22dp</dimen>
+    <dimen name="list_icon">26dp</dimen>
+    <dimen name="text_icon">16dp</dimen>
+    <dimen name="empty_view_icon">52dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="taskbar_info_text_size">15sp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="button_width">130dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="text_sub_size">13sp</dimen>
+    <dimen name="table_row_text_size">14sp</dimen>
+    <dimen name="table_title_text_size">20sp</dimen>
+    <dimen name="table_margin_top">20dp</dimen>
+    <dimen name="tablerow_margin_top">5dp</dimen>
+    <dimen name="linearLayout_question_margin_bottom">10dp</dimen>
+    <dimen name="arrow_margin_right">5dp</dimen>
+    <dimen name="column_width">50dp</dimen>
+    <dimen name="space_gridview_vertical">5dp</dimen>
+    <dimen name="space_gridview">5dp</dimen>
+    <dimen name="result_text_size">30sp</dimen>
+    <dimen name="category_line_heigh">70dp</dimen>
+    <dimen name="category_title_row_text_size">20sp</dimen>
+    <dimen name="category_row_text_size">17sp</dimen>
+    <dimen name="category_row_sub_text_size">13sp</dimen>
+    <dimen name="category_description_row_text_size">16sp</dimen>
+    <dimen name="time_size">18sp</dimen>
+    <dimen name="time_second_size">14sp</dimen>
+    <dimen name="no_network_text">16sp</dimen>
+    <dimen name="webview_progress_heigh">5dp</dimen>
+    <dimen name="sprinner_text_size">18sp</dimen>
+    <dimen name="open_drawer_margin_bottom">50dp</dimen>
+    <dimen name="answer_text_size">16sp</dimen>
+    <dimen name="actionbar_textsize">14sp</dimen>
+    <dimen name="actionbar_subtitle_size">12sp</dimen>
+    <dimen name="dialog_title_heigh">45dp</dimen>
+    <dimen name="padding_setting_befor_test_layout">5dp</dimen>
+    <dimen name="padding_logo">45dp</dimen>
+    <dimen name="padding_logo_bottom">15dp</dimen>
+    <dimen name="margin_logo_default">10dp</dimen>
+    <dimen name="button_text_size">12sp</dimen>
+
+</resources>

@@ -1,0 +1,126 @@
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:+'
+    }
+}
+
+apply plugin: 'android'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+//apply plugin: 'com.android.application'
+
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+//    defaultConfig {
+//        applicationId "com.dictionary.aard.pro.Application"
+//        minSdkVersion 15
+//        targetSdkVersion 21
+//        versionCode 1
+//        versionName "1.0"
+//    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+        project.file("exclude.txt").eachLine {
+            line ->
+                println line
+                if (line && line.trim() && !line.startsWith("#")) {
+                    exclude line.trim()
+                }
+        }
+    }
+
+	//dexOptions {
+    	//preDexLibraries false
+	//}
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile rootProject.file('debug.keystore')
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storePassword 'android'
+        }
+
+/*
+            releaseConfig {
+                storeFile file("/Volumes/Data 2/KEY_PLAY_STORE/dictionary_aard.jks")
+                storePassword new String(System.console().readPassword("\n\$ Keystore password: "))
+                keyAlias "dictionary_aard"
+                keyPassword new String(System.console().readPassword("\n\$ Key password: "))
+            }
+            */
+    }
+
+    buildTypes {
+
+            debug {
+                debuggable true;
+                signingConfig signingConfigs.debug
+            }
+/*
+            release {
+                debuggable false;
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+                signingConfig signingConfigs.releaseConfig
+            }
+            */
+    }
+    
+   
+
+    dependencies {
+        compile 'com.fasterxml.jackson.core:jackson-databind:2.4+'
+        compile 'com.fasterxml.jackson.core:jackson-core:2.4+'
+        compile 'com.fasterxml.jackson.core:jackson-annotations:2.4+'
+        compile 'com.shamanland:fonticon:+'
+        //compile ('com.google.android.gms:play-services:3.1+')
+        compile ('com.google.android.gms:play-services:+') {
+        	exclude module: 'support-v4'
+        }
+     
+        compile project(':slobj')
+        compile project(':slobber')
+        compile project(':slobber').files('libs/simple-5.1.7.1.itkach.jar')
+//      compile project(':app:libraries:fonticon')
+       
+       //compile fileTree(dir: 'libs', include: ['*.jar'])
+       
+        compile files('libs/android-support-v13.jar')
+        compile files('libs/libGoogleAnalyticsServices.jar')
+        compile files('libs/universal-image-loader-1.9.3.jar')
+        
+
+    }
+}

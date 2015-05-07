@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/luongbeta/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.5/6fb96728ee26edb19fe329d94f3bd4df1a97652a/jackson-core-2.4.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6fb96728ee26edb19fe329d94f3bd4df1a97652a">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/jackson-core-2.4.5-fa7a111411faa5dbbcbe436984394b5e47144add.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="db1e65d9e3ee616f871cb23120fbea8f18ad3e4c">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-8738f77e6f2348edd28218c5a8a844d010503708.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-56c0e5e7f229567b12c17f8fbeca87e6e5c15374.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-d54992d63ba4e7c728c1689ef3464885b34061a0.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-ebaacb8726d13744cce7809c9961f68a1e591299.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-f817663db79d7a14e031d0721602423e9a7e9f40.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/aard2-android/slobj/build/libs/slobj-0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29972e01ae25b5d8ae1920f17159d857036f2b71">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/slobj-0.5-b4f9f2e52c81b762c44dddd46f548c00554e9f5d.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-16ffd373260ff074eeb515c0278d9198a557d032.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-cf48794115c8e3665e6ba0b4544bf91d7b867f87.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-69bfc19ca737d328e69b6ac7e87f26056d51ab94.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/slobber/libs/simple-5.1.7.1.itkach.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9c3e911f90c3ad32b6ae1de94b7107f6d7f4c6da">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/simple-5.1.7.1.itkach-3f0c967659e821cbe511c3dc421cb1d3c69a0457.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-ffb3262d2e48b7d8efd0aa3667c992d2fdfb4a55.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41c6fb0537e463f685d3235fc50d38dc540d6ece">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/android-support-v13-16d5011106445582c1316bd8fee812348dcd8f25.jar" />
+    </item>
+    <item
+        jar="/Users/luongbeta/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.1/71c1992c0cf5e0ce62574e96009572062ba0f4d9/jackson-annotations-2.5.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="71c1992c0cf5e0ce62574e96009572062ba0f4d9">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/jackson-annotations-2.5.1-edbac8edff40160b6c221c9a4db3c6b85ab33a2d.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-f805d71aee48d8b46929e7ff2cb13a7e23a9f81e.jar" />
+    </item>
+    <item
+        jar="/Users/luongbeta/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.1/5e57baebad3898aca8a825adaf2be6fd189442f2/jackson-databind-2.5.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5e57baebad3898aca8a825adaf2be6fd189442f2">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/jackson-databind-2.5.1-fc6d725948a574249fb7a33abf3501201ed323f5.jar" />
+    </item>
+    <item
+        jar="/Users/luongbeta/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.1/e2a00ad1d7e540ec395e9296a34da484c8888d4d/jackson-core-2.5.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e2a00ad1d7e540ec395e9296a34da484c8888d4d">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/jackson-core-2.5.1-6a82db3788786c36ff3b102b58a4ad964a5f5954.jar" />
+    </item>
+    <item
+        jar="/Users/luongbeta/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j/54.1.1/ce374ac81e0937384ca9d43fa93f56c915029c44/icu4j-54.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ce374ac81e0937384ca9d43fa93f56c915029c44">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/icu4j-54.1.1-8a22d47c27df2501376fb97e58955374dee2c588.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-3ff096b7e37823cd199daaa81ab0415395e742a2.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-7e83ad4a688b961300bf6de90fb2b2c9c150c866.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-712ec93f9d7c07225a3b02da26bda7fb33af5450.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/libs/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.3-88aa4405b141f670c6f04817851dcdc6d2ae2cc4.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/slobj/build/libs/slobj-0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="15843d8e9e34f4cef3c0b5a751ba3826717a9f73">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/slobj-0.5-a29fdb94252c6d5d34dac4c8641ea68e95c72a72.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-267378eaa866a0d38a3d990507b7a838a2bd905b.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-42249bf46482c3bb2373f6f5188b3695bc8bb44d.jar" />
+    </item>
+    <item
+        jar="/Users/luongbeta/.gradle/caches/modules-2/files-2.1/org.tukaani/xz/1.5/9c64274b7dbb65288237216e3fae7877fd3f2bee/xz-1.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9c64274b7dbb65288237216e3fae7877fd3f2bee">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/xz-1.5-1130b437fb41f23296107ab59074d3840cff582a.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/aard2-android/slobber/build/libs/slobber-0.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cc6caa98426ca2a400b10e88840d7e3c8e5faa02">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/slobber-0.7-55295d9e03197e377a03e84d8a530d4750b95198.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/slobber/build/libs/slobber-0.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5e4dffdb4d649d5ca4510abc456bd99b64eb50c5">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/slobber-0.7-fd4f48167077c52c86d4b0f38732d2f426f376d6.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-84088572dcef06540753b4d3d79b418838772e7d.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-a6d0a560b9db6ab631eeb7413a4d3ed1eb7bf9e3.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-c90ef686572280105ea3f8393cbd86a6051928e8.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-0ed3e1df0274c773fcaf66a72bfefcb7b2a9cbfa.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/exploded-aar/com.shamanland/fonticon/0.1.8/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f47c528455a95ed134e48b24009132bf5f888e4b">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/classes-901256b0f1f087ef432499d7aab39c3653e849fe.jar" />
+    </item>
+    <item
+        jar="/Users/luongbeta/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.5/b400d47efaf8ab612c03b904ae5bf26c6706ade6/jackson-annotations-2.4.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b400d47efaf8ab612c03b904ae5bf26c6706ade6">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/jackson-annotations-2.4.5-c37ed0fe59fc9fc5d1f23f46672ca6d8a580b554.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/aard2-android/slobber/libs/simple-5.1.7.1.itkach.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9c3e911f90c3ad32b6ae1de94b7107f6d7f4c6da">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/simple-5.1.7.1.itkach-4590a79e2624c17939a429dea18795ca0a801f36.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/aard2-android/libs/android-support-v13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41c6fb0537e463f685d3235fc50d38dc540d6ece">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/android-support-v13-2833a09757363f6818410d5e78303767d1b02ee2.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/dictionary_aard_android/fonticon/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="643bc5abb1474b62365bd2ea1a0f7f0141ccdc93">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-8a5eb45b365c8c1a04c8ddfa3ccd0b81b3441792.jar" />
+    </item>
+    <item
+        jar="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/dictionary_aard_android/build/intermediates/pre-dexed/debug/classes-8faad150af60db44955559ecdaad4879e3f3edba.jar" />
+    </item>
+    <item
+        jar="/Users/luongbeta/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.5/c69c0cb613128c69d84a6a0304ddb9fce82e8242/jackson-databind-2.4.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c69c0cb613128c69d84a6a0304ddb9fce82e8242">
+        <dex dex="/Volumes/Data 2/CODE/Dictionary/aard2-android/build/intermediates/pre-dexed/debug/jackson-databind-2.4.5-e6cae6eafe3fc9346719df44a49ba03a0cb3d0b2.jar" />
+    </item>
+
+</items>

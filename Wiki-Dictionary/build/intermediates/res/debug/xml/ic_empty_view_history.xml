@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-icon
+    xmlns:android="http://schemas.android.com/apk/res-auto"
+    android:text="@string/ic_history"
+    android:textSize="@dimen/empty_view_icon"
+    android:textColor="@color/empty_view_icon"
+    /><!-- From: file:/Volumes/Data%202/CODE/Dictionary/dictionary_aard_android/res/xml/ic_empty_view_history.xml -->
